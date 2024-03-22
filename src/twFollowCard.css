@@ -1,0 +1,113 @@
+.container-tw-fw {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #202327;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.tw-fw-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.tw-fw-card:hover {
+    background-color: #1d1f23;
+}
+
+.tw-fw-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tw-name-userName {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tw-fw-avatar {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.text-fw-card {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.tw-name-userName span {
+    color: #71767b;
+}
+
+.text-fw-card i {
+    color: #00cdff;
+}
+
+.tw-name-userName strong:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.tw-fw-btn {
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    padding: 15px 10px;
+    width: 200px;
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .3s ease-in-out width;
+
+}
+
+.tw-ufw-btn {
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 15px 10px;
+    width: 250px;
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 18px;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: .3s ease-in-out width;
+}
+
+.tw-ufw-btn:hover {
+    color: red;
+    background-color: rgba(174, 8, 8, 0.2);
+    border: 1px solid red;
+}
+
+.tw-ufw-btn:hover .span-ufw {
+    display: block;
+    animation: fadeIn .2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+}
+
+.tw-ufw-btn:hover .span-fw {
+    display: none;
+}
+
+.span-ufw {
+    display: none;
+}
